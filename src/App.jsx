@@ -64,7 +64,7 @@ function App() {
               );
             })}
           </div>
-          <button className="confirm-btn">Continue</button>
+          <button className="btn">Continue</button>
         </div>
       </div>
       <footer className="footer">

@@ -26,13 +26,19 @@
   -moz-box-shadow: 9px 10px 31px 3px rgba(0, 0, 0, 0.77);
 }
 .btn {
-  background-color: rgb(28, 26, 138);
-  border-radius: 5%;
+  border-radius: 50px;
+  border-color: transparent;
+  color: #ffff;
+  background-color: #303b5a;
+  padding: 0.8rem 1.3rem;
+  width: 100%;
+  margin: 1rem 0;
+  cursor: pointer;
 }
 .btn:hover {
   background-color: rgb(28, 26, 138);
   outline-style: none;
-  cursor: pointer;
+  opacity: 0.9;
 }
 .right {
   width: 100%;
@@ -130,23 +136,8 @@
 .card-right p {
   color: gray;
 }
-.confirm-btn {
-  border-radius: 50px;
-  border-color: transparent;
-  color: #ffff;
-  background-color: #303b5a;
-  padding: 0.8rem 1.3rem;
-  width: 100%;
-  margin: 1rem 0;
-  cursor: pointer;
-}
-.confirm-btn:hover {
-  background-color: rgb(28, 26, 138);
-  opacity: 0.9;
-}
 @media (min-width: 768px) {
   .main {
-    /* flex-direction: column; */
     width: 100%;
   }
   .left,
@@ -154,18 +145,18 @@
     width: 100%;
     padding: 2rem;
   }
-  .summary{
-    padding: 0.5rem ;
+  .summary {
+    padding: 0.5rem;
   }
-  .left{
+  .left {
     width: 100%;
   }
-  .wrapper{
+  .wrapper {
     flex-direction: row;
     height: 100%;
     width: 100%;
   }
-  .confirm-btn{
+  .confirm-btn {
     width: 100%;
   }
 }
