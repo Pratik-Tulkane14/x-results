@@ -26,8 +26,13 @@
   -moz-box-shadow: 9px 10px 31px 3px rgba(0, 0, 0, 0.77);
 }
 .btn {
-  background-color: gray;
+  background-color: rgb(28, 26, 138);
   border-radius: 5%;
+}
+.btn:hover {
+  background-color: rgb(28, 26, 138);
+  outline-style: none;
+  cursor: pointer;
 }
 .right {
   width: 100%;
@@ -77,11 +82,6 @@
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
-}
-.btn:hover {
-  background-color: rgb(28, 26, 138);
-  outline-style: none;
-  cursor: pointer;
 }
 .footer {
   width: 100%;
