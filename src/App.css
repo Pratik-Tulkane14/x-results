@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* max-width: 600px; */
+}
+.wrapper {
+  width: 300px;
+  height: 60vh;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  margin-top: 2%;
+  box-shadow: 9px 10px 31px 3px rgba(0, 0, 0, 0.77);
+  -webkit-box-shadow: 9px 10px 31px 3px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 9px 10px 31px 3px rgba(0, 0, 0, 0.77);
+}
+.btn {
+  background-color: gray;
+  border-radius: 5%;
+}
+.right {
+  width: 50%;
+  height: 420px;
+  padding: 2rem;
+}
+.summary {
+  color: gray;
+  font-size: 1.5em;
+  padding: 1rem 0;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: #3a32ec;
+  width: 50%;
+  border-radius: 5%;
+  padding: 3rem;
+  height: 420px;
+}
+.result {
+  color: #aa99fd;
+}
+.score {
+  font-size: 4rem;
+  color: #ffffff;
+}
+.outof {
+  color: #aa99fd;
+}
+.great {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.conclusion {
+  color: #ffffff;
+}
+.marks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5737e4;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+.btn:hover {
+  background-color: rgb(28, 26, 138);
+  outline-style: none;
+  cursor: pointer;
+}
+.footer {
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  bottom: 10px;
+}
+.links {
+  margin: 0 0.2rem;
+}
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.card:nth-child(1) {
+  background-color: #ffeeee;
+}
+.card:nth-child(2) {
+  background-color: #fff7e8;
+}
+.card:nth-child(3) {
+  background-color: #e5f8f3;
+}
+.card:nth-child(4) {
+  background-color: #e7e9fa;
+}
+.card-left {
+  display: flex;
+  gap: 0.5rem;
+}
+.card-left > p {
+  text-transform: capitalize;
+}
+.optain-marks {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #000;
+}
+.card-right p {
+  color: gray;
+}
+.confirm-btn {
+  border-radius: 50px;
+  border-color: transparent;
+  color: #ffff;
+  background-color: #303b5a;
+  padding: 0.8rem 1.3rem;
+  width: 14.8rem;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+.confirm-btn:hover {
+  background-color: rgb(28, 26, 138);
+  opacity: 0.9;
+}
+@media (min-width: 600px) {
+  .wrapper {
+    width: 600px;
+    display: flex;
+  }
+}
